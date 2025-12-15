@@ -13,6 +13,6 @@
 - [API 文档首页](/api/index.md)
 - [全局文档](/api/global.md)
 - `{version}`
-- - [账户接口`auth`](/api/v1/auth/)
-- - - [Token 管理`token`](/api/v1/auth/tokens/)
-- - - - [申请新 Token`operation`](/api/v1/auth/tokens/operation.md)
+- - 账户接口
+- - - Token 管理
+- - - - [申请新 Token](/api/v1/auth/tokens/operation/index.md)

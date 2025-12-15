@@ -1,7 +1,7 @@
 # API 通用规范说明
 
 :::details 获取当前页资源
-- [响应体](/raw/api/global.jsonc)
+- [响应体](https://docs.xyit.net/raw/api/global.jsonc)
 :::
 
 ## 路径
