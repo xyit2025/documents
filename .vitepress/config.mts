@@ -2,7 +2,7 @@ import { defineConfig } from 'vitepress'
 
 // https://vitepress.dev/reference/site-config
 export default defineConfig({
-  title: "",
+  title: "向源互联 文档",
   description: "Documents of XYITWeb",
   themeConfig: {
     // https://vitepress.dev/reference/default-theme-config
@@ -15,9 +15,34 @@ export default defineConfig({
       {
         text: 'APIs',
         items: [
-          { text: '', link: '/' },
-          { text: '', link: '/' }
-        ]
+          // { text: 'API首页', link: '/api' },
+          { text: 'API通用规范说明', link: '/api/global.md' },
+          {
+            text: 'v1', 
+            items: [
+              {
+                text: '用户账户',
+                items: [
+                  {
+                    text: 'Tokens',
+                    items: [
+                      {
+                        text: 'Operation Token',
+                        items: [
+                          { text: '获取OT', link: '/api/v1/auth/tokens/operation/index.md'},
+                        ],
+                      },
+                    ],
+                    collapsed: true,
+                  },
+                ],
+                collapsed: true,
+              },
+            ],
+            collapsed: true,
+          },
+        ],
+        link: '/api',
       }
     ],
 
