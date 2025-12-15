@@ -2,27 +2,27 @@ import { defineConfig } from 'vitepress'
 
 // https://vitepress.dev/reference/site-config
 export default defineConfig({
-  title: "云洛语秋的文档",
-  description: "一个测试用文档站",
+  title: "",
+  description: "Documents of XYITWeb",
   themeConfig: {
     // https://vitepress.dev/reference/default-theme-config
     nav: [
       { text: '首页', link: '/' },
-      { text: 'MCUNCWiki镜像站', link: '/MCUNCWikiMirror' }
+      { text: 'APIs', link: '/api' }
     ],
 
     sidebar: [
       {
-        text: 'Examples',
+        text: 'APIs',
         items: [
-          { text: 'Markdown Examples', link: '/markdown-examples' },
-          { text: 'Runtime API Examples', link: '/api-examples' }
+          { text: '', link: '/' },
+          { text: '', link: '/' }
         ]
       }
     ],
 
     socialLinks: [
-      { icon: 'github', link: 'https://github.com/AvirlMay/devdocs' }
+      { icon: 'github', link: 'https://github.com/xyit2025/documents' }
     ]
   },
   
