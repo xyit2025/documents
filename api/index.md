@@ -8,7 +8,7 @@
 ## 阅读须知
 
 - 本 API 采用 [RESTful](https://www.runoob.com/restfulapi/restful-api-tutorial.html) 设计风格，建议提前了解 RESTful 以便更好地理解接口设计。
-- 所有接口均遵循统一的 [响应体]()，文档中通常仅展示关键字段。建议在使用前先阅读统一响应体说明。
+- 所有接口均遵循统一的 [响应体](/api/v1/entities/GlobalApiResponse.md)，文档中通常仅展示关键字段。建议在使用前先阅读统一响应体说明。
 - 在本文档中，使用 `{}` 包裹的部分表示 **URL 路径中的动态参数**。
 
 ## 文档目录
