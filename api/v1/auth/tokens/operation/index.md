@@ -2,7 +2,12 @@
 
 | 接口 ID  |  `v1.auth.tokens.operation.0`  |
 | :------: | :----------------------------: |
-| 接口端点 | `/api/v1/auth/tokes/operation` |
+| 接口端点 | `/api/v1/auth/tokens/operation` |
+| 请求方式 |             `POST`             |
+
+:::details 目录
+[[toc]]
+:::
 
 :::details 本页资源
 - [成功响应体(jsonc)](https://docs.xyit.net/raw/api/v1/auth/tokens/operation/0.200.jsonc)
@@ -40,7 +45,7 @@ HTTP/2 200 OK
 ```
 
 :::details 数据详细说明
-|键名|键值的型|键说明|
+|键名|键值型|键说明|
 |:--:|:--:|:--:|
 |`token`|string|获取到的 Token|
 |`verify_image`|string|Token 对应的验证图像, 编码`Base64`|
