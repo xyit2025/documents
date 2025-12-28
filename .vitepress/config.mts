@@ -17,7 +17,7 @@ export default defineConfig({
         items: [
           // { text: 'API首页', link: '/api' },
           { text: 'API通用规范说明', link: '/api/global.md' },
-          { Text: 'API通用响应体格式', link: '/api/v1/entities/GlobalApiResponse' },
+          { text: 'API通用响应体格式', link: '/api/v1/entities/GlobalApiResponse' },
           {
             text: 'v1', 
             items: [
