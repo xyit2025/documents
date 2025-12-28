@@ -30,8 +30,14 @@ export default defineConfig({
                         text: 'Operation Token',
                         items: [
                           { text: '获取OT', link: '/api/v1/auth/tokens/operation/index.md'},
+                          { text: '{token}', items: 
+                            [
+                              {text: '获取 Operation Token 验证图像', link: '/api/v1/auth/tokens/operation/:token/captcha'}
+                            ] 
+                          },
                         ],
                       },
+                      { text: 'status', link: '/api/v1/auth/status'}
                     ],
                     collapsed: true,
                   },
@@ -39,7 +45,7 @@ export default defineConfig({
                 collapsed: true,
               },
             ],
-            collapsed: true,
+            collapsed: false,
           },
         ],
         link: '/api',
